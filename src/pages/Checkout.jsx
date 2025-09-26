@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
-import { Home, Building, Plus } from 'lucide-react';
+import { Hop as Home, Building, Plus } from 'lucide-react';
 
 const Checkout = () => {
   const [selectedAddress, setSelectedAddress] = useState('home');
